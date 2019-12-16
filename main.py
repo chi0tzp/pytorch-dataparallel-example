@@ -46,7 +46,7 @@ if __name__ == '__main__':
     cls_criterion = nn.BCELoss()
 
     for data in rand_loader:
-        targets = torch.empty(batch_size).random_(2).view(-1, 1)
+        targets = torch.empty(data.size(0)).random_(2).view(-1, 1)
 
         if torch.cuda.is_available():
             input = Variable(data.cuda())
