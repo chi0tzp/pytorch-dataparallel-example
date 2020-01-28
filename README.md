@@ -8,3 +8,7 @@ terminate called after throwing an instance of 'std::runtime_error'
 Aborted (core dumped)
 ```
 
+
+
+**Solved in version 1.4 (`python-pytorch-cuda-1.4.0-4`)**
+
